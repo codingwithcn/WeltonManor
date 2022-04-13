@@ -7,25 +7,7 @@
   color: black;
   position: relative;
   bottom: 0;
-  width: 99%;
-  z-index: 100;
-}
-
-.PoweredBy a {
-  width: 100vw;
-  text-decoration: none;
-}
-
-.PoweredBy {
-  border: 1.5px solid gainsboro;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  position: relative;
-  bottom: 0;
-  width: 99%;
+  width: 98%;
   z-index: 100;
 }
 
@@ -62,14 +44,14 @@ links, .footer-links {
 }
 
 links a, .footer-links a {
-  margin-right: 10%;
+  margin-right: 7%;
   color: black;
   text-decoration: none;
 }
 
 .footer-links {
   width: 70%;
-  margin-left: 25%;
+  margin-left: 26%;
 }
 
 .footer-links a {
@@ -92,7 +74,7 @@ links a.active {
   font-size: 40px;
   color: black;
   font-style: italic;
-  border: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
   padding: 10px;
 }
 
@@ -162,4 +144,8 @@ footer a, footer a:hover, footer a:focus, footer a:active {
   color: white;
   font-size: 40px;
   text-align: center;
+}
+
+.gray-box-shadow {
+  box-shadow: 15px 10px #888888;
 }

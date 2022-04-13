@@ -1,0 +1,47 @@
+.ratings {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+  margin: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ratings-photo-name {
+  display: inline-flex;
+}
+
+.ratings-profile {
+  background-image: url("https://assets.website-files.com/5c6eefaaeddf9248ac13bc72/5cdc39f74b4caf06de5f038c_placeholder%201%20-%20wide.svg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 50px; /* You must set a specified height */
+  width: 50px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.ratings-name {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+.ratings-name {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 20px;
+  opacity: 0.75;
+}
+
+.ratings-comment {
+  margin-top: 2%;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  line-spacing: 10px;
+}

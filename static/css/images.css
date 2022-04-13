@@ -1,0 +1,30 @@
+.images {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+  margin: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images .image {
+  background-image: url("https://assets.website-files.com/5c6eefaaeddf9248ac13bc72/5cdc39f74b4caf06de5f038c_placeholder%201%20-%20wide.svg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 350px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.image-details {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 2%;
+}
+
+.image-date {
+  border-bottom: 1px solid black;
+  opacity: 0.75;
+}
