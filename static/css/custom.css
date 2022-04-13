@@ -1,0 +1,163 @@
+.PoweredBy {
+  border: 1.5px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 99%;
+  z-index: 100;
+}
+
+.PoweredBy a {
+  width: 100vw;
+  text-decoration: none;
+}
+
+.PoweredBy {
+  border: 1.5px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 99%;
+  z-index: 100;
+}
+
+.PoweredBy a {
+  width: 100vw;
+  text-decoration: none;
+}
+
+navigator {
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 1%;
+  margin-right: 4%;
+}
+
+logo {
+  margin-left: 4%;
+}
+
+.footer-logo {
+  width: 100%;
+  text-align: center;
+}
+
+logo img, .footer-logo img{
+  width: 70px;
+  height: 70px;
+}
+
+links, .footer-links {
+  padding: 10px;
+  width: 100vw;
+  font-size: 37px;
+  margin-left: 15%;
+}
+
+links a, .footer-links a {
+  margin-right: 10%;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-links {
+  margin-left: 20%;
+}
+
+.footer-links a {
+  color: #fff;
+}
+
+links a.active {
+  background-color: #7CB9E8;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  top: -15px;
+}
+
+.quote {
+  margin-bottom: 2%;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-style: italic;
+  border: 1px solid gainsboro;
+  padding: 10px;
+}
+
+.divider {
+  border-bottom: 1px solid gainsboro;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #333;
+  font-size: 20px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.grid-divider-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  margin-top: 10px;
+}
+
+footer a, footer a:hover, footer a:focus, footer a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.slogan {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+}
+
+.banner {
+    background-image: url("https://assets.website-files.com/5c6eefaaeddf9248ac13bc72/5cdc39f74b4caf06de5f038c_placeholder%201%20-%20wide.svg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.title {
+    font-size: 40px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}

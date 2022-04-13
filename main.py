@@ -6,7 +6,7 @@ app.secret_key = ":sddsadasdsa"
 
 @app.route('/', methods=['GET'])
 def home():
-  return 'hello, site running correctly'
+  return render_template('home.html')
 
 if __name__ == '__main__':
   app.run(
